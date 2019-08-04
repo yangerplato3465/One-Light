@@ -6,7 +6,7 @@ if(instance_exists(oPlayer) && !instance_exists(obj_textbox)){
 	y = approach(y, targetY, moveSpeed);
 }
 
-if(place_meeting(x, y, oLightGlow)){
+if(place_meeting(x, y, oLightGlow) || distance_to_object(oPlayer) > 100){
 	sprite_index = sGhostStop1;
 	moveSpeed = 0;
 }else{
