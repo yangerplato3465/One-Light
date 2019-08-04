@@ -79,6 +79,9 @@ if(( place_meeting(x, y, oGhost) || place_meeting(x, y, oSpike) ) && sprite_inde
 if(instance_exists(obj_textbox)){
 	control = false;
 	sprite_index = sPlayerIdle;
-}else{
+	textboxFlag = 1;
+}
+if( textboxFlag && !instance_exists(obj_textbox)){
 	control = true;
+	textboxFlag = 0;
 }
