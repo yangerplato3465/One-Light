@@ -22,9 +22,10 @@ if(open){
 	}
 }
 
-//open door
+//open door  (should fix)
 if(place_meeting(x, y + 10, oPlayer) || place_meeting(x, y - 10, oPlayer)){
 	if(oPlayer.keyCount == 1 && action){
+		audio_play_sound(sdDoorOpen, 10, false);
 		oPlayer.keyCount--;
 		open = true;
 		if(instance_exists(oKey1)){
@@ -35,6 +36,7 @@ if(place_meeting(x, y + 10, oPlayer) || place_meeting(x, y - 10, oPlayer)){
 		}
 	}
 	if(oPlayer.keyCount == 2 && action){
+		audio_play_sound(sdDoorOpen, 10, false);
 		oPlayer.keyCount--;
 		open = true;
 		instance_destroy(oKey1);

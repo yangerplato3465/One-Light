@@ -1,0 +1,1 @@
+return animationHitFrame(image_number - 1);

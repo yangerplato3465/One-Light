@@ -1,5 +1,5 @@
 image_speed = 0.5;
-
+depth = -50;
 follow = false;
 
 top = y - 1;

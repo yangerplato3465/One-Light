@@ -1,1 +1,2 @@
 targetRoom = noone
+sdPlayed = false;

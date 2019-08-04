@@ -11,7 +11,7 @@ if(place_meeting(x, y, oLightGlow)){
 	moveSpeed = 0;
 }else{
 	sprite_index = sGhost1;
-	moveSpeed = 0.05
+	moveSpeed = 0.1
 }
 
 if(x - oPlayer.x > 0) image_xscale = -1;

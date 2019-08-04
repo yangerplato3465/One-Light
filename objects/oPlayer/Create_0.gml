@@ -6,4 +6,9 @@ accell = 2
 haveKey = false;
 keyCount = 0;
 
+death = false;
+damaged = false;
+
+control = true;
+
 instance_create_layer(x, y, "Main", oPlayerGlow);
