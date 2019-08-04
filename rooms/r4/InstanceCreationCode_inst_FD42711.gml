@@ -1,2 +1,2 @@
-spawnX = 32;
-spawnY = 223;
+spawnX = 285;
+spawnY = 350;
