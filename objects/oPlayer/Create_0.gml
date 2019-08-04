@@ -12,4 +12,6 @@ damaged = false;
 control = true;
 depth = 10;
 
+textboxFlag = 0
+
 instance_create_layer(x, y, "Main", oPlayerGlow);
