@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "3b06731c-c3bc-4b83-a45f-a448bbf08493",
+            "Value": {
+                "id": "012fb933-1f30-41e3-8213-a6e6d589f64b",
+                "resourcePath": "objects\\oButton\\oButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3fbeb3e0-587c-474c-adb4-ef677d647adf",
             "Value": {
                 "id": "34266527-3d11-4364-a263-67ed53e881be",
@@ -260,6 +268,14 @@
                 "id": "7cf391db-73e7-4ff0-ab40-5957fa36277d",
                 "resourcePath": "views\\4a78d943-aac0-4cd4-b461-73da82cff5a7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4b799957-b010-4733-9f6c-b699195dd0d8",
+            "Value": {
+                "id": "19c5bbf2-66f6-4597-9bec-c708b2b0bb07",
+                "resourcePath": "sprites\\sStartButton\\sStartButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -372,6 +388,14 @@
                 "id": "54a7285f-7355-45d5-baad-5b3283cc04a8",
                 "resourcePath": "objects\\oGame\\oGame.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "70ed4811-5125-41ab-8d1a-362ae795dac1",
+            "Value": {
+                "id": "95a6b4a7-da90-4486-9cd4-7cdcd5a38d82",
+                "resourcePath": "sprites\\sBackground\\sBackground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -495,6 +519,14 @@
             }
         },
         {
+            "Key": "944e4aac-8d41-4d1a-977d-9b0fb78c734b",
+            "Value": {
+                "id": "da310403-63d7-40f8-9cef-20aeb7e2a17c",
+                "resourcePath": "rooms\\rTitle\\rTitle.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "95523c0c-58b5-4cdd-a9e4-ce90fe7bc794",
             "Value": {
                 "id": "aee9c70a-86d4-4a09-9a98-a17a14a63f15",
@@ -532,6 +564,14 @@
                 "id": "35533b3e-92e4-4f10-ac0e-42e0c11df4a2",
                 "resourcePath": "views\\a24acd8c-9c6b-4664-9339-ef6dd534c736.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3b1d5df-c016-4eec-b1fe-cfc5a9738b88",
+            "Value": {
+                "id": "91ebcaa7-3b0b-4c41-ae67-8bd396684fe4",
+                "resourcePath": "objects\\oLightTitle\\oLightTitle.yy",
+                "resourceType": "GMObject"
             }
         },
         {

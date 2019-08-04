@@ -9,7 +9,8 @@
         "bd2ad004-f148-4c67-971f-d59fde0360d2",
         "65536703-8a01-49bf-bf48-fc2b628c244a",
         "61d87a91-5a5c-44ca-a3cd-46b8d98d7c38",
-        "708f3afc-e929-403f-a2d9-664887ff7976"
+        "708f3afc-e929-403f-a2d9-664887ff7976",
+        "3b06731c-c3bc-4b83-a45f-a448bbf08493"
     ],
     "filterType": "GMObject",
     "folderName": "System",
