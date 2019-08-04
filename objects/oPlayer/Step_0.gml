@@ -63,16 +63,16 @@ if(warp != noone){
 }
 
 //Death
-if((place_meeting(x, y, oGhost) || place_meeting(x, y, oSpike)) && sprite_index != sPlayerDeath && !damaged){
+if(( place_meeting(x, y, oGhost) || place_meeting(x, y, oSpike) ) && sprite_index != sPlayerDeath && !damaged){
 	audio_play_sound(sdDeath, 10, false);
 	death = true;
 	sprite_index = sPlayerDeath;
 	image_index = 0;
 	image_speed = 1;
 	if(death){
-		alarm[0] = 20;
-		damaged = true;
 		control = false;
+		damaged = true;
+		alarm[0] = 20;
 	}
 }
 
