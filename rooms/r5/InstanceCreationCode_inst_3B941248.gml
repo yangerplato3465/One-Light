@@ -1,1 +1,1 @@
-targetRoom = r1;
+targetRoom = rEnding;
