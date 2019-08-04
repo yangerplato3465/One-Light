@@ -1,4 +1,4 @@
-if(instance_exists(oPlayer)){
+if(instance_exists(oPlayer) && !instance_exists(obj_textbox)){
 	var targetX = oPlayer.x;
 	var targetY = oPlayer.y;
 	
