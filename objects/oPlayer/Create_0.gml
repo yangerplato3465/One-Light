@@ -8,6 +8,7 @@ keyCount = 0;
 
 death = false;
 damaged = false;
+PlayerAttack = false
 
 control = true;
 depth = 10;

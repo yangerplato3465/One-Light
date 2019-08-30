@@ -26,13 +26,13 @@ if(control){
 	y += ySpeed;
 
 	//Sprite
-	if((xx !=0 || yy != 0) && !death){
+	if((xx !=0 || yy != 0) && !death && !PlayerAttack){
 		sprite_index = sPlayerRun;
 		if(animationHitFrame(1) || animationHitFrame(5)){
 			audio_play_sound(sdFootStep, 5, false);
 		}
 	}else{
-		if(!death)
+		if(!death && !PlayerAttack)
 		sprite_index = sPlayerIdle;
 	}
 
@@ -40,6 +40,15 @@ if(control){
 		image_xscale = 1;
 	}else if(xSpeed < 0){
 		image_xscale = -1;
+	}
+	if( attack && !PlayerAttack){
+		PlayerAttack = 1
+		show_debug_message("attack!")
+		sprite_index = sPlayerAttack
+		createHitbox(x, y, self, sPlayerSlash, 4, 4, 1, image_xscale)
+		image_index = 0;
+		alarm[1]=20
+		
 	}
 }
 //key

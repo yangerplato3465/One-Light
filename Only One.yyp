@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "cb918719-1bb8-4b67-ad7c-41a14b8ea0d6",
+            "Value": {
+                "id": "f469e2c7-1997-4a52-be93-5ad25580f038",
+                "resourcePath": "sprites\\sPlayerAttack\\sPlayerAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cbc86b3f-4ac0-4f0c-90e2-2156728a0e17",
             "Value": {
                 "id": "e6e0dde8-cb65-4fba-8f09-257f93cafa1d",
@@ -970,7 +978,7 @@
             "Key": "ed8e09ac-dbc1-4a50-a480-43de9a1db7fb",
             "Value": {
                 "id": "019b2986-52cd-43d3-819a-690f85cd478b",
-                "resourcePath": "sprites\\sPlayerSlashRight\\sPlayerSlashRight.yy",
+                "resourcePath": "sprites\\sPlayerSlash\\sPlayerSlash.yy",
                 "resourceType": "GMSprite"
             }
         },
